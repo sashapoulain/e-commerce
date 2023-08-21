@@ -1,0 +1,62 @@
+body {
+    overflow: hidden;
+    background-color: #eeeeee;
+}
+
+.second404 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+.second404 img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 3rem;
+    aspect-ratio: 18/9;
+}
+
+.btn404div {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.btn-sec404 {
+    background-color: #e6c744;
+    color: white;
+    padding: 0.75rem 1rem;
+}
+
+.btn-sec404:hover {
+    color: #19055b;
+}
+
+@media (max-width:900px) {
+    .second404 img {
+        width: 100%;
+        object-fit: cover;
+        margin-top: 10rem;
+        aspect-ratio: 9/9;
+    }
+}
+
+@media (max-width:480px) {
+    .second404 img {
+        width: 100%;
+        object-fit: cover;
+        margin-top: 6rem;
+        aspect-ratio: 10/9;
+    }
+    .btn-sec404 {
+        background-color: #19055b;
+        color: white;
+        padding: 0.75rem 1rem;
+        margin-top: 2rem;
+    }
+}
